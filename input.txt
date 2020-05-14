@@ -1,0 +1,9 @@
+let ey = Eye((0.,0.,0.),(0.,0.,500.)) in add ey;
+let mainsource = Source((0.,0.,0.),(-500.,-500.,200.),(255,255,255)) in add mainsource;
+add Sphere((0.,0.,500.),100.,(255,0,0),0.33);
+let sphere_1 = Sphere((150.,-150.,1300.),450.,(0,0,255),0.33) in add sphere_1;
+let spc = Sphere((200.,500.,700.),250.,(0,255,0),0.33) in add spc;
+let spd = Sphere((200.,-500.,400.),150.,(255,255,0),0.33) in add spd;
+//remove spd;
+let ground = Plane((-100.,0.,0.),(1.,0.,0.),(255,255,255),0.03) in add ground;
+//let back = Plane((0.,0.,9000.),(0.,0.,-1.),(0,255,255),0.03) in add back;
